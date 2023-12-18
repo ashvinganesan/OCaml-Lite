@@ -1,0 +1,32 @@
+lib: [
+  "_build/install/default/lib/ocaml_lite/META"
+  "_build/install/default/lib/ocaml_lite/ast.ml"
+  "_build/install/default/lib/ocaml_lite/dune-package"
+  "_build/install/default/lib/ocaml_lite/lexer.ml"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.a"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cma"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cmi"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cmt"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cmx"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cmxa"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.ml"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Ast.cmi"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Ast.cmt"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Ast.cmx"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Lexer.cmi"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Lexer.cmt"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Lexer.cmx"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Parser.cmi"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Parser.cmt"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Parser.cmti"
+  "_build/install/default/lib/ocaml_lite/ocaml_lite__Parser.cmx"
+  "_build/install/default/lib/ocaml_lite/opam"
+  "_build/install/default/lib/ocaml_lite/parser.ml"
+  "_build/install/default/lib/ocaml_lite/parser.mli"
+]
+libexec: [
+  "_build/install/default/lib/ocaml_lite/ocaml_lite.cmxs"
+]
+bin: [
+  "_build/install/default/bin/ocaml_lite"
+]

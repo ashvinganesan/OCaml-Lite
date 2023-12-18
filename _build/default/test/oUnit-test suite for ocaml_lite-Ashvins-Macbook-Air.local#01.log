@@ -1,0 +1,9 @@
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Start test test suite for ocaml_lite:0:test suite for tokenize:0:random code.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Test test suite for ocaml_lite:0:test suite for tokenize:0:random code is successful.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: End test test suite for ocaml_lite:0:test suite for tokenize:0:random code.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Start test test suite for ocaml_lite:0:test suite for tokenize:2:underscore id.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Test test suite for ocaml_lite:0:test suite for tokenize:2:underscore id is successful.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: End test test suite for ocaml_lite:0:test suite for tokenize:2:underscore id.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Start test test suite for ocaml_lite:1:test suite for parser:0:Binop_test.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: Test test suite for ocaml_lite:1:test suite for parser:0:Binop_test is successful.
+2023-11-13T23:54:30+00:00 Ashvins-Macbook-Air.local#01 I: End test test suite for ocaml_lite:1:test suite for parser:0:Binop_test.

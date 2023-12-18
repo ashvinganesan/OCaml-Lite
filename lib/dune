@@ -1,0 +1,12 @@
+(library
+ (public_name ocaml_lite)
+ (name ocaml_lite))
+
+(ocamllex lexer)
+
+(menhir
+  (modules parser))
+
+
+
+

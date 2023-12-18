@@ -1,0 +1,62 @@
+(lang dune 3.10)
+(name ocaml_lite)
+(sections (lib .) (libexec .) (bin ../../bin))
+(files
+ (lib
+  (META
+   ast.ml
+   dune-package
+   lexer.ml
+   ocaml_lite.a
+   ocaml_lite.cma
+   ocaml_lite.cmi
+   ocaml_lite.cmt
+   ocaml_lite.cmx
+   ocaml_lite.cmxa
+   ocaml_lite.ml
+   ocaml_lite__Ast.cmi
+   ocaml_lite__Ast.cmt
+   ocaml_lite__Ast.cmx
+   ocaml_lite__Lexer.cmi
+   ocaml_lite__Lexer.cmt
+   ocaml_lite__Lexer.cmx
+   ocaml_lite__Parser.cmi
+   ocaml_lite__Parser.cmt
+   ocaml_lite__Parser.cmti
+   ocaml_lite__Parser.cmx
+   opam
+   parser.ml
+   parser.mli))
+ (libexec (ocaml_lite.cmxs))
+ (bin (ocaml_lite)))
+(library
+ (name ocaml_lite)
+ (kind normal)
+ (archives (byte ocaml_lite.cma) (native ocaml_lite.cmxa))
+ (plugins (byte ocaml_lite.cma) (native ocaml_lite.cmxs))
+ (native_archives ocaml_lite.a)
+ (main_module_name Ocaml_lite)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name ocaml_lite)
+     (visibility public)
+     (kind alias)
+     (source (path Ocaml_lite) (impl (path ocaml_lite.ml-gen))))
+    (name Ocaml_lite)
+    (modules
+     (module
+      (obj_name ocaml_lite__Ast)
+      (visibility public)
+      (source (path Ast) (impl (path ast.ml))))
+     (module
+      (obj_name ocaml_lite__Lexer)
+      (visibility public)
+      (source (path Lexer) (impl (path lexer.ml))))
+     (module
+      (obj_name ocaml_lite__Parser)
+      (visibility public)
+      (source (path Parser) (intf (path parser.mli)) (impl (path parser.ml))))))
+   (wrapped true))))

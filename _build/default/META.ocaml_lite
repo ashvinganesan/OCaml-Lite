@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "ocaml_lite.cma"
+archive(native) = "ocaml_lite.cmxa"
+plugin(byte) = "ocaml_lite.cma"
+plugin(native) = "ocaml_lite.cmxs"
